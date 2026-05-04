@@ -1,0 +1,8 @@
+# Local browser/test captures
+desktop-home.png
+mobile-home.png
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
