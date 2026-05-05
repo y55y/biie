@@ -16,6 +16,7 @@
   --shadow: 0 28px 80px oklch(17% 0.025 32 / 0.26);
   --display: "Bodoni Moda", Georgia, serif;
   --sans: "Albert Sans", "Avenir Next", "Segoe UI", sans-serif;
+  --arabic: "Noto Sans Arabic", "Segoe UI", Tahoma, sans-serif;
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -67,7 +68,7 @@ a {
   inset: 0 0 auto;
   z-index: 30;
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr auto auto;
   align-items: center;
   gap: clamp(1rem, 2vw, 2rem);
   padding: clamp(0.7rem, 1.6vw, 1.2rem) clamp(1rem, 4vw, 4.5rem);
@@ -147,8 +148,77 @@ a {
   text-transform: uppercase;
 }
 
+.lang-toggle {
+  justify-self: end;
+  min-width: 2.7rem;
+  min-height: 2.7rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  background: oklch(96% 0.018 78 / 0.12);
+  color: inherit;
+  cursor: pointer;
+  font: 900 0.78rem/1 var(--sans);
+  letter-spacing: 0.04em;
+}
+
 .nav-toggle {
   display: none;
+}
+
+html[dir="rtl"] body {
+  font-family: var(--arabic);
+}
+
+html[dir="rtl"] h1,
+html[dir="rtl"] h2 {
+  font-family: var(--arabic);
+  font-weight: 900;
+  line-height: 1.05;
+}
+
+html[dir="rtl"] .site-header {
+  grid-template-columns: auto auto 1fr auto;
+}
+
+html[dir="rtl"] .site-nav {
+  justify-self: start;
+}
+
+html[dir="rtl"] .header-cta,
+html[dir="rtl"] .lang-toggle {
+  justify-self: start;
+}
+
+html[dir="rtl"] .hero-scrim {
+  background:
+    linear-gradient(270deg, oklch(11% 0.02 35 / 0.82) 0%, oklch(18% 0.02 35 / 0.58) 38%, oklch(30% 0.04 42 / 0.1) 72%),
+    linear-gradient(0deg, oklch(10% 0.02 32 / 0.55), transparent 38%);
+}
+
+html[dir="rtl"] .hero-image img {
+  animation-name: heroDriftRtl;
+}
+
+html[dir="rtl"] .hero-copy {
+  margin-right: clamp(1rem, 7vw, 7rem);
+  margin-left: 0;
+}
+
+html[dir="rtl"] .hero-note {
+  right: auto;
+  left: clamp(1rem, 4vw, 4rem);
+}
+
+html[dir="rtl"] .site-nav a::after {
+  transform-origin: right;
+}
+
+html[dir="rtl"] .text-link::after {
+  content: "←";
+}
+
+html[dir="rtl"] .site-footer > div:nth-child(2) {
+  justify-items: start;
 }
 
 .hero {
@@ -190,7 +260,7 @@ a {
   width: min(45rem, calc(100% - 2rem));
   margin-left: clamp(1rem, 7vw, 7rem);
   padding-top: 6rem;
-  z-index: 1;
+  z-index: 2;
 }
 
 .eyebrow {
@@ -407,11 +477,14 @@ h3 {
 .category-board {
   display: grid;
   grid-template-columns: minmax(0, 1.15fr) minmax(20rem, 0.85fr);
-  grid-template-rows: repeat(3, minmax(12rem, 1fr));
+  grid-template-rows: repeat(6, minmax(6rem, 1fr));
   grid-template-areas:
     "botox face"
+    "botox face"
     "botox eyes"
-    "botox nails";
+    "lips eyes"
+    "lips nails"
+    "lips nails";
   gap: clamp(1rem, 2vw, 1.5rem);
   align-items: stretch;
 }
@@ -426,18 +499,22 @@ h3 {
 
 .category-card.feature {
   grid-area: botox;
-  min-height: 43rem;
+  min-height: 21rem;
 }
 
-.category-card:nth-child(2) {
+.category-card.feature-secondary {
+  grid-area: lips;
+}
+
+.category-card.face {
   grid-area: face;
 }
 
-.category-card:nth-child(3) {
+.category-card.eyes {
   grid-area: eyes;
 }
 
-.category-card:nth-child(4) {
+.category-card.nails {
   grid-area: nails;
 }
 
@@ -763,13 +840,26 @@ h3 {
   }
 }
 
+@keyframes heroDriftRtl {
+  from {
+    transform: scaleX(-1) scale(1.08);
+  }
+  to {
+    transform: scaleX(-1) scale(1.03);
+  }
+}
+
 @media (max-width: 980px) {
   .site-header {
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr auto auto;
+  }
+
+  html[dir="rtl"] .site-header {
+    grid-template-columns: auto auto 1fr auto;
   }
 
   .nav-toggle {
-    grid-column: 3;
+    grid-column: 4;
     justify-self: end;
     display: inline-grid;
     gap: 0.28rem;
@@ -799,6 +889,15 @@ h3 {
     color: var(--ivory);
     border: 1px solid oklch(94% 0.02 75 / 0.22);
     box-shadow: var(--shadow);
+  }
+
+  html[dir="rtl"] .nav-toggle {
+    grid-column: 1;
+    justify-self: start;
+  }
+
+  html[dir="rtl"] .site-nav {
+    inset: 5.8rem 1rem auto;
   }
 
   .site-nav.is-open {
@@ -842,9 +941,10 @@ h3 {
 
   .category-card,
   .category-card.feature,
-  .category-card:nth-child(2),
-  .category-card:nth-child(3),
-  .category-card:nth-child(4) {
+  .category-card.feature-secondary,
+  .category-card.face,
+  .category-card.eyes,
+  .category-card.nails {
     grid-area: auto;
   }
 
@@ -904,6 +1004,10 @@ h3 {
     width: calc(100% - 1.5rem);
     margin: 0 auto;
     padding-top: 0;
+  }
+
+  html[dir="rtl"] .hero-copy {
+    margin: 0 auto;
   }
 
   h1 {
@@ -1006,15 +1110,15 @@ h3 {
     min-height: 28rem;
   }
 
-  .category-card:nth-child(2) img {
+  .category-card.face img {
     object-position: 58% center;
   }
 
-  .category-card:nth-child(3) img {
+  .category-card.eyes img {
     object-position: 42% center;
   }
 
-  .category-card:nth-child(4) img {
+  .category-card.nails img {
     object-position: center 38%;
   }
 
@@ -1074,6 +1178,10 @@ h3 {
     width: calc(100% - 2rem);
     padding: 1.4rem;
     text-align: left;
+  }
+
+  html[dir="rtl"] .store-panel {
+    text-align: right;
   }
 
   .store-panel h2,
