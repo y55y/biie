@@ -1,10 +1,10 @@
-# BIÉE Gulf Partner
+﻿# BIIE Gulf Partner
 
 register: brand
 
 ## Product Purpose
 
-BIÉE Gulf Partner is a landing website for BIÉE New York in Saudi Arabia and the wider Gulf region. It introduces the brand, presents its makeup categories, and sends shoppers to the official The Ora Beauty store.
+BIIE Gulf Partner is a landing website for BIIE New York in Saudi Arabia and the wider Gulf region. It introduces the brand, presents its makeup categories, and sends shoppers to the official The Ora Beauty store.
 
 ## Users
 
@@ -16,7 +16,7 @@ Glossy, confident, warm, retail-ready. The brand should feel like New York color
 
 ## Strategic Principles
 
-- Make BIÉE products visible in the first viewport.
+- Make BIIE products visible in the first viewport.
 - Keep the main conversion path simple: shop at The Ora Beauty.
 - Position the Gulf partner as local, responsive, and legitimate.
 - Avoid unsupported beauty claims. Use wearable, polished, long-wear language without medical or certification claims.

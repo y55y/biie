@@ -872,6 +872,12 @@ h3 {
     color: inherit;
   }
 
+  .lang-toggle {
+    grid-column: 3;
+    justify-self: end;
+    margin-inline-end: 0.15rem;
+  }
+
   .nav-toggle span {
     width: 1.1rem;
     height: 1px;

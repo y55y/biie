@@ -1,4 +1,4 @@
-# BIÉE Gulf Partner Design Notes
+﻿# BIIE Gulf Partner Design Notes
 
 ## Register
 
@@ -6,7 +6,7 @@ Brand landing page.
 
 ## Physical Scene
 
-A Saudi beauty shopper opens the page on a phone in warm evening light after seeing BIÉE on social media and needs to know if it is real, desirable, locally supported, and easy to buy.
+A Saudi beauty shopper opens the page on a phone in warm evening light after seeing BIIE on social media and needs to know if it is real, desirable, locally supported, and easy to buy.
 
 ## Color Strategy
 

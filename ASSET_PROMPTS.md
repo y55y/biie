@@ -1,14 +1,14 @@
-# BIÉE Website Asset Prompt Pack
+﻿# BIIE Website Asset Prompt Pack
 
-These prompts are prepared for generated bitmap assets. Use BIÉE logo/product catalog assets as references when available. Do not generate fake product labels unless a real BIÉE packaging reference is provided.
+These prompts are prepared for generated bitmap assets. Use BIIE logo/product catalog assets as references when available. Do not generate fake product labels unless a real BIIE packaging reference is provided.
 
 ## Asset 1: Hero Campaign Image
 
 Use case: ads-marketing
 Asset type: landing page hero, desktop and mobile crop
-Primary request: premium beauty campaign image for BIÉE New York Gulf landing page
+Primary request: premium beauty campaign image for BIIE New York Gulf landing page
 Scene/backdrop: warm Gulf limestone architecture with a modern New York studio gloss influence, no recognizable landmarks
-Subject: elegant arrangement of lipstick, mascara, foundation, and nail polish forms inspired by BIÉE product categories, with space on the left for headline text
+Subject: elegant arrangement of lipstick, mascara, foundation, and nail polish forms inspired by BIIE product categories, with space on the left for headline text
 Style/medium: high-end photorealistic beauty advertising, glossy product photography, editorial campaign
 Composition/framing: wide 16:9, products on right third, sweeping diagonal lipstick color trail leading toward center, generous negative space
 Lighting/mood: warm champagne key light, soft reflections, confident evening glam
@@ -22,9 +22,9 @@ Avoid: purple gradients, cluttered flat-lay, medical/skincare lab look
 
 Use case: ads-marketing
 Asset type: mobile hero background
-Primary request: vertical crop companion to the BIÉE New York Gulf hero image
+Primary request: vertical crop companion to the BIIE New York Gulf hero image
 Scene/backdrop: same warm Gulf stone and glossy New York studio mood
-Subject: hero cosmetics arrangement vertically stacked with negative space at top for BIÉE New York title
+Subject: hero cosmetics arrangement vertically stacked with negative space at top for BIIE New York title
 Style/medium: photorealistic beauty advertising
 Composition/framing: 4:5 portrait, products in lower half, soft diagonal color stroke
 Lighting/mood: warm champagne, polished, premium
@@ -36,7 +36,7 @@ Constraints: no fake product labels, no watermark
 
 Use case: product-mockup
 Asset type: product/category section image for lips
-Primary request: macro beauty image representing BIÉE lip color collection
+Primary request: macro beauty image representing BIIE lip color collection
 Scene/backdrop: ivory stone surface with berry and rose lipstick swatches
 Subject: liquid lipstick wand, classic lipstick bullet, rich matte swatches
 Style/medium: high-resolution macro product photography
@@ -50,7 +50,7 @@ Constraints: no fake labels, no faces, no watermark
 
 Use case: product-mockup
 Asset type: category image for face makeup
-Primary request: premium foundation texture and bottle-inspired image for BIÉE face makeup
+Primary request: premium foundation texture and bottle-inspired image for BIIE face makeup
 Scene/backdrop: warm ivory ceramic tile with champagne reflection
 Subject: foundation smear, glass pump-bottle silhouette, shade drops from fair to tan
 Style/medium: photorealistic cosmetics still life
@@ -64,7 +64,7 @@ Constraints: no fake labels, no unsupported clinical claims
 
 Use case: product-mockup
 Asset type: category image for eyes
-Primary request: dramatic mascara category image for BIÉE eye makeup
+Primary request: dramatic mascara category image for BIIE eye makeup
 Scene/backdrop: glossy black surface with faint rose reflection
 Subject: mascara wand with precise bristles, abstract fan of black strokes, small gold accent
 Style/medium: luxury macro product photography
@@ -78,7 +78,7 @@ Constraints: no eye close-up unless real model photography is provided, no fake 
 
 Use case: product-mockup
 Asset type: category image for nails
-Primary request: nail polish color collection image for BIÉE Color Expert
+Primary request: nail polish color collection image for BIIE Color Expert
 Scene/backdrop: clean ivory stone with glossy polish puddles
 Subject: nail polish bottle silhouettes and four polish strokes in red, nude, berry, and soft pink
 Style/medium: polished cosmetics still life
@@ -120,7 +120,7 @@ Constraints: fictional person, no celebrity resemblance, no watermark
 
 Use case: product-mockup
 Asset type: horizontal section divider/background
-Primary request: abstract strip of cosmetic textures for BIÉE page
+Primary request: abstract strip of cosmetic textures for BIIE page
 Scene/backdrop: seamless ivory background
 Subject: lipstick smears, foundation strokes, mascara linework, nail polish gloss
 Style/medium: macro beauty texture photography
@@ -134,7 +134,7 @@ Constraints: seamless enough for web cropping, no labels, no watermark
 
 Use case: ads-marketing
 Asset type: CTA section background
-Primary request: premium ecommerce call-to-action background for BIÉE available at The Ora Beauty
+Primary request: premium ecommerce call-to-action background for BIIE available at The Ora Beauty
 Scene/backdrop: glossy beauty counter, warm Gulf retail ambience
 Subject: cosmetic silhouettes arranged around empty central space for website CTA text
 Style/medium: photorealistic advertising still
@@ -142,7 +142,7 @@ Composition/framing: wide 21:9, central negative space, products at edges
 Lighting/mood: inviting, boutique, polished
 Color palette: ivory, black, rose, champagne gold
 Text: none
-Constraints: do not render The Ora Beauty or BIÉE text inside image; website HTML will add real text
+Constraints: do not render The Ora Beauty or BIIE text inside image; website HTML will add real text
 
 ## Asset 11: Botox Refresh Close-Up
 
@@ -161,7 +161,7 @@ Avoid: harsh surgery imagery, exaggerated skin smoothing, purple gradients, ster
 
 ## Required Non-Generated Assets
 
-- BIÉE logo from `biie_logo.pdf` or `biie_logo-son.pdf`
+- BIIE logo from `biie_logo.pdf` or `biie_logo-son.pdf`
 - Product imagery from `2025 kataog .pdf`
 - The Ora Beauty store URL
 - Original company website URL
@@ -169,8 +169,9 @@ Avoid: harsh surgery imagery, exaggerated skin smoothing, purple gradients, ster
 
 ## Optional Extraction Tasks Before Build
 
-- Convert BIÉE logo PDF to SVG or PNG.
+- Convert BIIE logo PDF to SVG or PNG.
 - Extract 6-10 clean product images from the catalog PDF.
 - Create optimized web versions: `.webp` for photos and `.svg` or transparent `.png` for logo.
 - Keep generated images in `assets/generated/`.
 - Keep source/extracted brand assets in `assets/brand/`.
+

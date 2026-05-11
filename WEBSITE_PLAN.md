@@ -1,8 +1,8 @@
-# BIÉE Gulf Partner Landing Website Plan
+﻿# BIIE Gulf Partner Landing Website Plan
 
 ## Goal
 
-Build a full landing website for BIÉE New York as the Gulf region brand partner presence. The page should introduce BIÉE, explain the product range, localize the brand for Saudi/GCC customers, and drive shoppers to the official The Ora Beauty store:
+Build a full landing website for BIIE New York as the Gulf region brand partner presence. The page should introduce BIIE, explain the product range, localize the brand for Saudi/GCC customers, and drive shoppers to the official The Ora Beauty store:
 
 https://theorabeauty.com/biie-new-york/brand-1022818369
 
@@ -13,9 +13,9 @@ Primary contacts:
 
 ## Source Findings
 
-BIÉE official site positions the brand as "Biie New York" with the tagline "Because you matter." Its visible product categories are face, lips, nails, and eyes, and listed products include Matte Kiss Proof liquid lipstick, mascara, Matte Attack Sugar Lipstick, Color Expert nail polish, and foundation.
+BIIE official site positions the brand as "Biie New York" with the tagline "Because you matter." Its visible product categories are face, lips, nails, and eyes, and listed products include Matte Kiss Proof liquid lipstick, mascara, Matte Attack Sugar Lipstick, Color Expert nail polish, and foundation.
 
-The Ora Beauty is a Saudi beauty store focused on makeup, skincare, and body care categories. The BIÉE page should therefore behave as a branded launch page, not a replacement ecommerce catalog.
+The Ora Beauty is a Saudi beauty store focused on makeup, skincare, and body care categories. The BIIE page should therefore behave as a branded launch page, not a replacement ecommerce catalog.
 
 Competitor cues:
 
@@ -28,10 +28,10 @@ Market cue from Brand Finance 2025: cosmetics brand value reached USD 160B; Chan
 ## Design Frame
 
 Purpose:
-Convert Gulf beauty shoppers from awareness to The Ora Beauty store visits while making BIÉE feel legitimate, premium, and locally supported.
+Convert Gulf beauty shoppers from awareness to The Ora Beauty store visits while making BIIE feel legitimate, premium, and locally supported.
 
 Audience:
-Saudi and GCC makeup buyers, beauty creators, boutique retailers, and customers who discover BIÉE through social commerce or The Ora Beauty.
+Saudi and GCC makeup buyers, beauty creators, boutique retailers, and customers who discover BIIE through social commerce or The Ora Beauty.
 
 Tone:
 Editorial New York beauty energy softened for Gulf luxury retail. Confident, glossy, feminine, modern, not overly clinical.
@@ -45,7 +45,7 @@ Palette:
 
 - Ink black: #090807
 - Warm ivory: #F7F1EA
-- BIÉE rose: #B95A67
+- BIIE rose: #B95A67
 - Deep berry: #681C2C
 - Champagne gold: #C8A45D
 - Sandstone neutral: #D8C6B2
@@ -62,16 +62,16 @@ A full-bleed glossy campaign hero with lipstick/foundation product silhouettes c
 ## Page Structure
 
 1. Header
-   - BIÉE logo
-   - Links: Collection, Best Sellers, Why BIÉE, For Gulf, Contact
+   - BIIE logo
+   - Links: Collection, Best Sellers, Why BIIE, For Gulf, Contact
    - Primary CTA: Shop at The Ora Beauty
    - Secondary CTA: WhatsApp
 
 2. Hero
-   - H1: BIÉE New York
+   - H1: BIIE New York
    - Subhead: New York color, Gulf-ready wear.
    - Copy: Official Gulf partner landing page for expressive makeup, long-wear color, and everyday confidence.
-   - CTAs: Shop BIÉE at The Ora Beauty, Contact Gulf Partner
+   - CTAs: Shop BIIE at The Ora Beauty, Contact Gulf Partner
    - Hero image: generated campaign/product scene.
 
 3. Trust Strip
@@ -111,18 +111,18 @@ A full-bleed glossy campaign hero with lipstick/foundation product silhouettes c
 10. Footer
    - Contact details
    - Store link
-   - Original BIÉE company site link
+   - Original BIIE company site link
    - Disclaimer: This Gulf landing page directs purchases to The Ora Beauty.
 
 ## Content Style
 
-Use polished English with optional Arabic microcopy later. Avoid unsupported claims such as waterproof, dermatologist-tested, clean, organic, FDA-approved, or cruelty-free unless verified from BIÉE materials.
+Use polished English with optional Arabic microcopy later. Avoid unsupported claims such as waterproof, dermatologist-tested, clean, organic, FDA-approved, or cruelty-free unless verified from BIIE materials.
 
 Sample hero copy:
 
-BIÉE New York
+BIIE New York
 New York color, Gulf-ready wear.
-Discover expressive lips, polished skin, defined eyes, and high-gloss nail color from BIÉE New York, available for Gulf shoppers through The Ora Beauty.
+Discover expressive lips, polished skin, defined eyes, and high-gloss nail color from BIIE New York, available for Gulf shoppers through The Ora Beauty.
 
 ## Build Recommendation
 
